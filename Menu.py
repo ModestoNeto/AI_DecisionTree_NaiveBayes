@@ -16,7 +16,7 @@ class Menu:
             print(f"Arquivo não encontrado: {file_path}")
             return
         else:
-            X_train, X_test, Y_train, Y_test = Data.loader(r.\ConsumoCo2.csv')
+            X_train, X_test, Y_train, Y_test = Data.loader(r'.\ConsumoCo2.csv')
         
         if escolha == '1':
             Y_pred, mse = Treino.train_decision_tree(X_train, X_test, Y_train, Y_test)

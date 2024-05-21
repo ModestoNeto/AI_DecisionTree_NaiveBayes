@@ -10,7 +10,7 @@ class Menu:
         print("2. Naive Bayes")
         escolha = input("Digite o número do modelo desejado: ")
         
-        file_path = r'C:\Users\modes\Documents\VScode\Python\IA\Trabalho_2\ConsumoCo2.csv'  # Certifique-se de que o caminho do arquivo está correto
+        file_path = r'C:\Users\modes\Documents\VScode\Python\IA\Trabalho_2\ConsumoCo2.csv' 
     
         if not os.path.exists(file_path):
             print(f"Arquivo não encontrado: {file_path}")
